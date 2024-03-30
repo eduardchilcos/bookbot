@@ -1,4 +1,4 @@
-FILE_PATH = "books/frankenstein.txt"
+FILE_PATH = "bookbot/books/frankenstein.txt"
 
 def get_word_count(text):
    return len(text.split())
