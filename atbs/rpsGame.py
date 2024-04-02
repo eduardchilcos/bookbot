@@ -27,16 +27,16 @@ while True: # The main game loop.
         print('SCISSORS versus...')
 
     # Display what the computer chose:
-        randomNumber = random.randint(1, 3)
-        if randomNumber == 1:
-            computerMove = 'r'
-            print('ROCK')
-        elif randomNumber == 2:
-            computerMove = 'p'
-            print('PAPER')
-        elif randomNumber == 3:
-            computerMove = 's'
-            print('SCISSORS')
+    randomNumber = random.randint(1, 3)
+    if randomNumber == 1:
+        computerMove = 'r'
+        print('ROCK')
+    elif randomNumber == 2:
+        computerMove = 'p'
+        print('PAPER')
+    elif randomNumber == 3:
+        computerMove = 's'
+        print('SCISSORS')
 
     # Display and record the win/loss/tie:
     if playerMove == computerMove:
@@ -51,6 +51,7 @@ while True: # The main game loop.
     elif playerMove == 's' and computerMove == 'p':
         print('You win!')
         wins = wins + 1
+    
     elif playerMove == 'r' and computerMove == 'p':
         print('You lose!')
         losses = losses + 1
