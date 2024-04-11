@@ -23,3 +23,5 @@ try:
                 indentIncreasing = True
 except KeyboardInterrupt:
     sys.exit()
+
+[1, 2, 3]
