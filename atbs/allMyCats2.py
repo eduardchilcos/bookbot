@@ -9,3 +9,4 @@ while True:
 print('The cat names are:')
 for name in catNames:
     print(' ' + name)
+
